@@ -1,0 +1,85 @@
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+Icon$'\r'
+Network Trash Folder
+Temporary Items
+
+# ============================================================
+# Xcode
+# ============================================================
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+timeline.xctimeline
+playground.xcworkspace
+
+# ============================================================
+# Swift Package Manager
+# ============================================================
+**/.build/
+**/Packages/
+**/.swiftpm/configuration/registries.json
+**/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+# Uncomment to ignore resolved versions (not recommended for apps):
+# Package.resolved
+
+# ============================================================
+# Credentials & secrets
+# ============================================================
+.env
+.env.local
+.env.*.local
+.netrc
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# ============================================================
+# Editor / IDE
+# ============================================================
+.idea/
+*.swp
+*.swo
+*~
+
+# Generic Template Ignores
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.DS_Store

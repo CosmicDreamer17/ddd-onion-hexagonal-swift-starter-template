@@ -1,0 +1,1 @@
+CRITICAL INSTRUCTION: Do not proceed until you have read, understood, and applied the architectural rules defined in `AI.md`.

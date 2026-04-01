@@ -1,0 +1,2 @@
+# SPM build artifacts local to this package (root .gitignore covers everything else)
+/.build

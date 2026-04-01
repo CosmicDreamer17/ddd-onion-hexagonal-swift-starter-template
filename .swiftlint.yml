@@ -1,0 +1,21 @@
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+
+opt_in_rules:
+  - empty_count
+  - contains_over_first_not_nil
+  - convenience_type
+  - force_unwrap
+  - force_cast
+  - force_try
+
+included:
+  - CoreDomain/Sources
+  - CoreData/Sources
+  - CoreUI/Sources
+  - App
+
+excluded:
+  - .build
+  - Tests
